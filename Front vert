@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Front Vert</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #2E7D32;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  color: #2E7D32;
+}
+.btn {
+  display: inline-block;
+  background: #2E7D32;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.programs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: #F4F4F4;
+  padding: 20px;
+  border-radius: 8px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+form button {
+  background: #2E7D32;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+footer {
+  background: #F4F4F4;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>FRONT VERT</h1>
+  <p>Produire • Former • Résilience</p>
+  <p>Front Vert est une initiative à but non lucratif qui renforce la sécurité alimentaire et la résilience des communautés en Haïti grâce à l’agriculture durable, la production avicole à cycle rapide et la formation des jeunes. Notre modèle innovant permet une réponse rapide aux crises, en donnant aux jeunes et producteurs les outils pour devenir autonomes et générer un impact durable.</p>
+  <a class="btn" href="#contact">Nous contacter</a>
+</header>
+
+<section>
+  <h2>À propos</h2>
+  <p>
+    Front Vert est une organisation à but non lucratif engagée dans la sécurité alimentaire,
+    la formation des jeunes et la résilience communautaire à travers l’agriculture durable
+    et l’innovation humanitaire en Haïti.
+  </p>
+</section>
+
+<section>
+  <h2>Nos programmes</h2>
+  <div class="programs">
+    <div class="card">
+      <h3>🌾 Agriculture durable</h3>
+      <p>Parcelles écoles, cultures à cycle court, accompagnement technique.</p>
+    </div>
+    <div class="card">
+      <h3>🐔 Production avicole</h3>
+      <p>Poulets de chair, formation pratique, revenus rapides.</p>
+    </div>
+    <div class="card">
+      <h3>🎓 Formation & accompagnement</h3>
+      <p>Formation accélérée des jeunes et appui entrepreneurial.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Innovation & Résilience</h2>
+  <p>
+    Front Vert développe un modèle d’agriculture d’urgence adapté aux 60 premiers jours
+    après une crise, favorisant la production rapide de nourriture, l’autonomie économique
+    et la résilience personnelle.
+  </p>
+</section>
+
+<section>
+  <h2>Impact attendu</h2>
+  <ul>
+    <li>+500 jeunes formés</li>
+    <li>+1 000 poulets produits par cycle</li>
+    <li>Sécurité alimentaire renforcée</li>
+    <li>Création d’emplois locaux</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Nom complet" required>
+    <input type="email" placeholder="Email" required>
+    <textarea rows="5" placeholder="Votre message"></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Front Vert – Organisation à but non lucratif</p>
+</footer>
+
+</body>
+</htm
